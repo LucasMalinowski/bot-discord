@@ -60,6 +60,7 @@ client.on("messageCreate", msg => {
           + " \n " + data['shopping_results'][0].price
           + " \n " + data['shopping_results'][0].link
           + " \n " + data['shopping_results'][0].thumbnail);
+          
       };
 
       // Show result as JSON
